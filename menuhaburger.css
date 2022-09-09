@@ -1,0 +1,144 @@
+<style>html{
+ color:darkviolet;
+ font-size:16px;
+ font-weight:600px;
+
+}
+
+header{
+position: sticky;
+top: 0;
+border: 2px solid yellow;
+padding: 1rem;
+background-color: #f7df1e;
+color: #222;
+
+}
+body {
+  margin: 0px;
+}
+
+
+aside{
+  border: 5px solid red;
+  margin: 10%;
+  padding:40px;
+  text-orientation: column;
+  text-align: center;
+  width: 40%;
+  height: 30%;
+}
+
+.side a:hover, 
+panel-btn:hover {
+color: #f1f1f1;
+}
+
+
+.nav menu{
+  border: 50px solid pink;
+}
+nav{
+  margin-left: 50%;
+  
+  
+  
+}
+.panel{
+position: fixed;
+z-index: 998;
+top: 15%;
+left: 20%
+bottom: 0;
+width: 30%;
+background-color: 0;
+transición: transform 0.3s easer;
+transform: tranlate(0,-100%);
+height:140px;
+
+
+}
+.panel-active{ 
+transform: translate(0,0);
+
+   }
+.panel-btn{
+position: fixed;
+z-index: 999;
+left: 1vw;
+width: 4rem;
+height: 4rem ;
+border-radius: 50%;
+padding:  0;
+top:0;
+background: red;
+margin-left: 25%;
+margin-top: 3%;
+
+}
+
+
+/* Fixed sidenav, full height */
+
+.sidenav {
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 123px;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a,
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, 
+.dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: orangered;
+}
+
+/* Dropdown container (hidden by default)
+. Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+final css
